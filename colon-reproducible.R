@@ -22,13 +22,13 @@ library(tictoc) # for timing
 #   raphaels1 = 'https://raphaels1.r-universe.dev',
 #   CRAN = 'https://cloud.r-project.org'
 # ))
-# install.packages(c("ggplot2", "mlr3benchmark", "mlr3pipelines", "mlr3proba", "mlr3tuning", 
+# install.packages(c("mlr3benchmark", "mlr3pipelines", "mlr3proba", "mlr3tuning", 
 #                    "survivalmodels", "mlr3extralearners"))
 
 library(survivalmodels)
 
-install_pycox(pip = TRUE, install_torch = TRUE)
-install_keras(pip = TRUE, install_tensorflow = TRUE)
+# install_pycox(pip = TRUE, install_torch = TRUE)
+# install_keras(pip = TRUE, install_tensorflow = TRUE)
 
 library(mlr3)
 library(mlr3proba)
